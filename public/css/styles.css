@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  animation: intro 0.3s ease-in;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  height: 15vh;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.9);
+  margin-bottom: 2rem;
+}
+
+img {
+  width: 100%;
+}
+
+.logo {
+  flex: 1 1 20rem;
+}
+
+.logo h3 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.nav {
+  flex: 1 1 20rem;
+}
+
+.navlinks {
+  display: flex;
+  font-size: 1.2rem;
+  width: 300px;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+.navlinks a {
+  color: #fff;
+}
+
+main {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+}
+
+.banner-container,
+.about-container,
+.contact-container,
+.main-career {
+  max-width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.banner-image,
+.about-container,
+.contact-container img {
+  margin-bottom: 1rem;
+}
+
+.banner-info,
+.about-info,
+.contact-container,
+.main-career h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.banner-info,
+.about-info,
+.main-career-info,
+.contact-container,
+.main-career p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.banner-info a {
+  font-size: 1.1rem;
+  margin: 1rem auto;
+  display: inline-block;
+  background-color: crimson;
+  border-radius: 10px;
+  color: #fff;
+  padding: 0.3rem 0.6rem;
+
+}
+
+.banner-info a:hover {
+  opacity: 0.9;
+}
+
+footer {
+  height: 15vh;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+}
+
+footer p {
+  margin: 2rem auto;
+}
+
+
+
+@media (min-width: 758px) {
+
+  .banner-container,
+  .about-container,
+  .main-career,
+  .contact-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+}
+
+@keyframes intro {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

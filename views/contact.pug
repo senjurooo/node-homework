@@ -1,0 +1,16 @@
+include partial/header
+
+main
+  .contact-container
+    img(src="contact-img.jpg", alt="contact")
+    .contact-info
+      h3  Give us a call
+      p   Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, doloribus excepturi suscipit facere fugiat enim, velit animi ea sunt quidem obcaecati nostrum magni harum illum.
+
+include partial/footer
+
+script(type="text/javascript").
+  let contactTag = document.querySelector('.contact-tag');
+  contactTag.style.backgroundColor = 'crimson';
+  contactTag.style.padding = '0.3rem';
+  contactTag.style.borderRadius = '10px';

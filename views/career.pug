@@ -1,0 +1,30 @@
+include partial/header
+main
+  .main-career
+    img(src="avengers.jpg", alt="avengers")
+    .main-career-info
+      h3 Join Us
+      p Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati velit magni, id eveniet quibusdam aliquam nostrum.
+
+section.career  
+  .career-container2
+    .card
+      img(src="career1.jpg", alt="career 1 img")
+      h3  Intern
+      a(href="#") Apply Now
+    .card
+      img(src="career2.jpg", alt="career 2 img")
+      h3  Bodyguard 
+      a(href="#") Apply Now
+    .card
+      img(src="career3.jpg", alt="career 3 img")
+      h3  Agent
+      a(href="#") Apply Now
+      
+include partial/footer
+
+script(type="text/javascript").
+  let careerTag = document.querySelector('.career-tag');
+  careerTag.style.backgroundColor = 'crimson';
+  careerTag.style.padding = '0.3rem';
+  careerTag.style.borderRadius = '10px';

@@ -1,0 +1,26 @@
+{
+  "name": "node-js-hw1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mafioSlime/node-js-hw1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mafioSlime/node-js-hw1/issues"
+  },
+  "homepage": "https://github.com/mafioSlime/node-js-hw1#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "pug": "^2.0.4",
+    "save": "^2.4.0"
+  }
+}

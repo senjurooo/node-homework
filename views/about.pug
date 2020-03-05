@@ -1,0 +1,17 @@
+include partial/header
+
+
+main
+  .about-container
+    img(src="about-img.jpg", alt="about img")
+    .about-info
+      h3 Technology is the future
+      p Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, voluptatibus dolore autem iste aliquam laudantium minima quidem dolores inventore suscipit cumque, repudiandae velit nihil nesciunt.
+
+include partial/footer
+
+script(type="text/javascript").
+  let aboutTag = document.querySelector('.about-tag');
+  aboutTag.style.backgroundColor = 'crimson';
+  aboutTag.style.padding = '0.3rem';
+  aboutTag.style.borderRadius = '10px';

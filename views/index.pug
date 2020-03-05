@@ -1,0 +1,18 @@
+include partial/header
+
+main
+  .banner-container
+    .banner-image
+      img(src="ironman.jpg", alt="ironman")
+    .banner-info
+      h3 Stark Industry
+      p "Technology does not change the world, it is the people.""
+      a(href="#") Start
+
+include partial/footer
+
+script(type="text/javascript").
+  let homeTag = document.querySelector('.home-tag');
+  homeTag.style.backgroundColor = 'crimson';
+  homeTag.style.padding = '0.3rem';
+  homeTag.style.borderRadius = '10px';
